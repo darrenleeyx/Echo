@@ -1,14 +1,14 @@
 # Echo
-Echo is a minimal API written in C# .NET 8 that echoes all requests with `/api` in their path.
+Echo is a minimal API written in C# .NET 9 that echoes all requests with `/api` in their path.
 
 ## Description
-Echo is a lightweight and simple API service built using the .NET 8 minimal APIs feature. It provides a straightforward way to echo back any requests that contain `/api` in their path. This can be useful for testing and debugging purposes, or as a simple way to inspect incoming requests.
+Echo is a lightweight and simple API service built using the .NET 9 minimal APIs feature. It provides a straightforward way to echo back any requests that contain `/api` in their path. This can be useful for testing and debugging purposes, or as a simple way to inspect incoming requests.
 
 ## Inspiration
 I've always found myself needing to create mock APIs to test my own APIs. Whether it's for ensuring that requests are executed successfully or simulating different scenarios, having a mock API handy has been invaluable. With Echo, I've streamlined this process by creating a single API that can handle all my mocking needs. Now, I can simply send requests to Echo and verify their execution without the need for multiple mock APIs. This not only saves time but also makes testing and development more efficient.
 
 ## Features
-- Minimal API written in C# .NET 8
+- Minimal API written in C# .NET 9
 - Echoes all requests with `/api` in their path
 - Easy to use and deploy
 
